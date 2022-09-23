@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return 'CI/CD pipeline with GCP Cloud Source Repositories and Docker v1.0'
+    return 'CI/CD pipeline with GCP Cloud Source Repositories and Docker v2.0'
 
 
 if __name__ == '__main__':
